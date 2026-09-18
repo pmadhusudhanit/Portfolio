@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171225"/><stop offset="1" stop-color="#08080c"/></linearGradient><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9d46ff"/><stop offset="1" stop-color="#4d82ff"/></linearGradient></defs>
+<rect width="900" height="560" rx="32" fill="url(#b)"/>
+<circle cx="720" cy="90" r="170" fill="#6d2fd4" opacity=".11"/><circle cx="140" cy="500" r="180" fill="#3158ff" opacity=".08"/>
+<rect x="60" y="60" width="780" height="440" rx="24" fill="#0d0d12" stroke="#342b40"/>
+<rect x="60" y="60" width="780" height="64" rx="24" fill="#111017"/><circle cx="92" cy="92" r="7" fill="#9d46ff"/><text x="112" y="98" fill="#fff" font-family="Arial" font-size="17" font-weight="700">FlightBook</text><text x="710" y="98" fill="#88818f" font-family="Arial" font-size="13">My Trips</text>
+<text x="100" y="166" fill="#fff" font-family="Arial" font-size="28" font-weight="700">Find your next flight</text><text x="100" y="192" fill="#817b89" font-family="Arial" font-size="13">Search, book and manage flights from one place.</text>
+<rect x="100" y="225" width="700" height="70" rx="16" fill="#15141b" stroke="#39313f"/>
+<g font-family="Arial"><text x="122" y="250" fill="#77717e" font-size="10">FROM</text><text x="122" y="275" fill="#fff" font-size="16">TIRUPATI</text><text x="300" y="250" fill="#77717e" font-size="10">TO</text><text x="300" y="275" fill="#fff" font-size="16">BENGALURU</text><text x="478" y="250" fill="#77717e" font-size="10">DATE</text><text x="478" y="275" fill="#fff" font-size="16">18 SEP 2026</text><rect x="680" y="239" width="95" height="42" rx="21" fill="url(#g)"/><text x="727" y="266" fill="#fff" font-size="13" text-anchor="middle" font-weight="700">SEARCH</text></g>
+<text x="100" y="340" fill="#fff" font-family="Arial" font-size="17" font-weight="700">Available flights</text>
+<g font-family="Arial"><rect x="100" y="362" width="700" height="52" rx="12" fill="#121119" stroke="#2b2730"/><text x="122" y="394" fill="#fff" font-size="14">6E 247 · 08:40</text><text x="335" y="394" fill="#aaa3af" font-size="13">TIR → BLR</text><text x="570" y="394" fill="#fff" font-size="14">₹ 4,850</text><text x="735" y="394" fill="#b86cff" font-size="13">BOOK</text>
+<rect x="100" y="428" width="700" height="52" rx="12" fill="#121119" stroke="#2b2730"/><text x="122" y="460" fill="#fff" font-size="14">AI 961 · 12:15</text><text x="335" y="460" fill="#aaa3af" font-size="13">TIR → BLR</text><text x="570" y="460" fill="#fff" font-size="14">₹ 5,120</text><text x="735" y="460" fill="#b86cff" font-size="13">BOOK</text></g>
+</svg>

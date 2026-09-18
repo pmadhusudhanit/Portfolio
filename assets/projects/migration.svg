@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111020"/><stop offset="1" stop-color="#07070a"/></linearGradient>
+ <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8f35ff"/><stop offset="1" stop-color="#4b74ff"/></linearGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="900" height="560" rx="32" fill="url(#bg)"/>
+<g opacity=".18" stroke="#b25cff"><path d="M0 440H900M0 360H900M0 280H900M0 200H900"/><path d="M100 0V560M220 0V560M340 0V560M460 0V560M580 0V560M700 0V560M820 0V560"/></g>
+<text x="48" y="54" fill="#9b91a8" font-family="Arial" font-size="15" letter-spacing="3">ENTERPRISE INTEGRATION</text>
+<g font-family="Arial" text-anchor="middle">
+ <rect x="50" y="145" width="190" height="230" rx="22" fill="#0d0d13" stroke="#45395a"/>
+ <text x="145" y="180" fill="#fff" font-size="18" font-weight="700">SOURCE SYSTEMS</text>
+ <rect x="80" y="205" width="130" height="38" rx="10" fill="#171421" stroke="#4a3567"/><text x="145" y="230" fill="#cdb8e8" font-size="14">MuleSoft APIs</text>
+ <rect x="80" y="257" width="130" height="38" rx="10" fill="#171421" stroke="#4a3567"/><text x="145" y="282" fill="#cdb8e8" font-size="14">SAP / Baan</text>
+ <rect x="80" y="309" width="130" height="38" rx="10" fill="#171421" stroke="#4a3567"/><text x="145" y="334" fill="#cdb8e8" font-size="14">Legacy Apps</text>
+ <rect x="325" y="110" width="250" height="300" rx="26" fill="#12101c" stroke="#8e43e9" filter="url(#g)"/>
+ <text x="450" y="151" fill="#fff" font-size="20" font-weight="700">AZURE INTEGRATION</text>
+ <rect x="355" y="180" width="190" height="48" rx="12" fill="#21123a" stroke="#9b3cff"/><text x="450" y="211" fill="#fff" font-size="15">API Management</text>
+ <rect x="355" y="242" width="190" height="48" rx="12" fill="#21123a" stroke="#9b3cff"/><text x="450" y="273" fill="#fff" font-size="15">Logic Apps</text>
+ <rect x="355" y="304" width="190" height="48" rx="12" fill="#21123a" stroke="#9b3cff"/><text x="450" y="335" fill="#fff" font-size="15">Service Bus · Events</text>
+ <rect x="660" y="145" width="190" height="230" rx="22" fill="#0d0d13" stroke="#45395a"/>
+ <text x="755" y="180" fill="#fff" font-size="18" font-weight="700">TARGET SYSTEMS</text>
+ <rect x="690" y="205" width="130" height="38" rx="10" fill="#171421" stroke="#4a3567"/><text x="755" y="230" fill="#cdb8e8" font-size="14">Dynamics 365</text>
+ <rect x="690" y="257" width="130" height="38" rx="10" fill="#171421" stroke="#4a3567"/><text x="755" y="282" fill="#cdb8e8" font-size="14">Azure SQL</text>
+ <rect x="690" y="309" width="130" height="38" rx="10" fill="#171421" stroke="#4a3567"/><text x="755" y="334" fill="#cdb8e8" font-size="14">External APIs</text>
+</g>
+<g stroke="#a64dff" stroke-width="4" fill="none" stroke-linecap="round"><path d="M240 260C280 260 285 260 325 260"/><path d="M575 260C615 260 620 260 660 260"/></g>
+<g fill="#c987ff"><circle cx="285" cy="260" r="5"/><circle cx="615" cy="260" r="5"/></g>
+<text x="450" y="490" fill="#8e8598" font-family="Arial" font-size="13" text-anchor="middle" letter-spacing="2">MODERNIZE · CONNECT · DELIVER</text>
+</svg>

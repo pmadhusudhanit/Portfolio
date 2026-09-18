@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121020"/><stop offset="1" stop-color="#07070a"/></linearGradient><linearGradient id="n" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7b32e8"/><stop offset="1" stop-color="#b56aff"/></linearGradient></defs>
+<rect width="900" height="560" rx="32" fill="url(#bg)"/>
+<text x="52" y="54" fill="#a49aaa" font-family="Arial" font-size="15" letter-spacing="3">AZURE ARCHITECTURE LAB</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="62" y="125" width="150" height="72" rx="16" fill="#111019" stroke="#4a3a61"/><text x="137" y="155" fill="#8e8298" font-size="11">SOURCE</text><text x="137" y="180" fill="#fff" font-size="16" font-weight="700">API CLIENT</text>
+<rect x="270" y="125" width="170" height="72" rx="16" fill="#181126" stroke="#8e42e8"/><text x="355" y="155" fill="#b889e8" font-size="11">EDGE</text><text x="355" y="180" fill="#fff" font-size="16" font-weight="700">APIM</text>
+<rect x="500" y="125" width="160" height="72" rx="16" fill="#181126" stroke="#8e42e8"/><text x="580" y="155" fill="#b889e8" font-size="11">WORKFLOW</text><text x="580" y="180" fill="#fff" font-size="16" font-weight="700">LOGIC APP</text>
+<rect x="720" y="125" width="120" height="72" rx="16" fill="#111019" stroke="#4a3a61"/><text x="780" y="155" fill="#8e8298" font-size="11">TARGET</text><text x="780" y="180" fill="#fff" font-size="15" font-weight="700">SYSTEM</text>
+<path d="M212 161H270M440 161H500M660 161H720" stroke="url(#n)" stroke-width="4"/>
+<rect x="115" y="270" width="670" height="210" rx="24" fill="#0d0d13" stroke="#332b3c"/>
+<text x="145" y="310" fill="#fff" font-size="19" font-weight="700" text-anchor="start">Architecture patterns</text>
+<g text-anchor="start"><rect x="145" y="335" width="185" height="52" rx="13" fill="#17121f" stroke="#4a3567"/><text x="163" y="367" fill="#d4c1e5" font-size="14">Synchronous REST</text><rect x="355" y="335" width="185" height="52" rx="13" fill="#17121f" stroke="#4a3567"/><text x="373" y="367" fill="#d4c1e5" font-size="14">Async Messaging</text><rect x="565" y="335" width="185" height="52" rx="13" fill="#17121f" stroke="#4a3567"/><text x="583" y="367" fill="#d4c1e5" font-size="14">Event-driven</text>
+<rect x="145" y="405" width="185" height="52" rx="13" fill="#11151b" stroke="#30415e"/><text x="163" y="437" fill="#9aa7bd" font-size="14">Retries & Errors</text><rect x="355" y="405" width="185" height="52" rx="13" fill="#11151b" stroke="#30415e"/><text x="373" y="437" fill="#9aa7bd" font-size="14">Security</text><rect x="565" y="405" width="185" height="52" rx="13" fill="#11151b" stroke="#30415e"/><text x="583" y="437" fill="#9aa7bd" font-size="14">Observability</text></g>
+</g>
+<circle cx="355" cy="161" r="7" fill="#c47aff"/><circle cx="580" cy="161" r="7" fill="#c47aff"/>
+</svg>

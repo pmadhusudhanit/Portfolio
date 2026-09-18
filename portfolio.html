@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Madhusudhan Pasupuleti — selected engineering projects across Azure integration, full-stack development and architecture.">
+<title>Portfolio | Madhusudhan Pasupuleti</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="portfolio">
+<div class="noise"></div>
+<header class="nav">
+  <a class="brand" href="index.html"><span class="brand-mark">M</span><span><b>MADHUSUDHAN</b><small>AZURE INTEGRATION</small></span></a>
+  <button class="menu-btn" aria-label="Open menu"><span></span><span></span></button>
+  <nav class="nav-links"><a href="index.html">Home</a><a href="about.html">About Me</a><a class="active" href="portfolio.html">Portfolio</a></nav>
+  <a class="nav-cta" href="index.html#contact">Let's Connect <span>↗</span></a>
+</header>
+
+<main>
+  <section class="portfolio-hero section">
+    <div class="portfolio-hero-copy">
+      <span class="section-label">Featured Work</span>
+      <h1>Projects that <span>solve problems.</span></h1>
+      <p>A collection of hands-on work across cloud integration, full-stack development and architecture — presented through the systems, flows and engineering decisions behind each project.</p>
+    </div>
+    <div class="portfolio-hero-orbit" aria-hidden="true"><span></span><i>API</i><i>FLOW</i><i>DATA</i></div>
+  </section>
+
+  <section class="section portfolio-projects" id="projects">
+    <div class="portfolio-section-head">
+      <div>
+        <span class="section-label">My Projects</span>
+        <h2>Engineering <span>in action.</span></h2>
+        <p>Explore the projects one at a time. The carousel is intentionally scalable, so future projects can be added without changing the interaction pattern.</p>
+      </div>
+      <div class="featured-controls" aria-label="Project carousel controls">
+        <button class="project-nav" id="projects-prev" type="button" aria-label="Previous projects">←</button>
+        <button class="project-nav" id="projects-next" type="button" aria-label="Next projects">→</button>
+      </div>
+    </div>
+
+    <div class="projects-viewport portfolio-project-viewport">
+      <div class="projects-track" id="projects-track">
+        <article class="project-card portfolio-project-card" id="project-mulesoft" data-project="migration">
+          <div class="project-cover">
+            <div class="project-year">2026</div>
+            <span class="project-category">Azure Integration</span>
+            <img src="assets/projects/migration.svg" alt="Azure Integration migration architecture illustration" loading="lazy">
+          </div>
+          <div class="project-card-body">
+            <div class="project-kicker">ENTERPRISE INTEGRATION · PROJECT</div>
+            <h3>MuleSoft → Azure Integration Services</h3>
+            <p>Enterprise integration modernization centered on API Management, Logic Apps, messaging, events and cloud-native Azure services.</p>
+            <div class="project-tags project-tags-expandable">
+              <span>Azure</span><span>Logic Apps</span><span>APIM</span><span>Service Bus</span>
+              <span class="project-tag-extra">Event Grid</span><span class="project-tag-extra">Functions</span><span class="project-tag-extra">REST APIs</span>
+              <button class="project-tags-more" type="button" aria-expanded="false">+3</button>
+            </div>
+            <a class="project-view" href="#case-migration">View Project <b>↘</b></a>
+          </div>
+        </article>
+
+        <article class="project-card portfolio-project-card" id="project-flight" data-project="flight">
+          <div class="project-cover">
+            <div class="project-year">2025</div>
+            <span class="project-category">Full Stack</span>
+            <img src="assets/projects/flight.svg" alt="Flight booking system interface illustration" loading="lazy">
+          </div>
+          <div class="project-card-body">
+            <div class="project-kicker">FULL STACK · PROJECT</div>
+            <h3>Flight Booking System</h3>
+            <p>An end-to-end flight booking application built with Java, Spring Boot, Angular and MySQL, connecting APIs, persistence and frontend workflows.</p>
+            <div class="project-tags project-tags-expandable">
+              <span>Java</span><span>Spring Boot</span><span>Angular</span><span>MySQL</span>
+              <span class="project-tag-extra">REST APIs</span>
+              <button class="project-tags-more" type="button" aria-expanded="false">+1</button>
+            </div>
+            <a class="project-view" href="#case-flight">View Project <b>↘</b></a>
+          </div>
+        </article>
+
+
+      </div>
+    </div>
+
+    <div class="projects-footer portfolio-project-footer">
+      <div class="project-dots" id="project-dots" aria-label="Project carousel position"></div>
+      <a class="btn ghost" href="index.html#contact">Let's Discuss a Project <b>↗</b></a>
+    </div>
+  </section>
+
+  <section class="section project-cases">
+    <div class="project-cases-head">
+      <span class="section-label">Project Stories</span>
+      <h2>Look beyond the <span>technology list.</span></h2>
+      <p>Each project is framed around the problem, system flow, architecture and engineering thinking behind the build.</p>
+    </div>
+
+    <article class="project-story" id="case-migration">
+      <div class="story-number">01</div>
+      <div class="story-visual"><img src="assets/projects/migration.svg" alt="MuleSoft to Azure Integration Services architecture" loading="lazy"><div class="story-glow"></div></div>
+      <div class="story-copy">
+        <span class="story-type">ENTERPRISE INTEGRATION · PROJECT</span>
+        <h3>MuleSoft <span>→</span> Azure Integration Services</h3>
+        <p class="story-lead">A modernization-focused project around moving enterprise integration flows toward Azure Integration Services.</p>
+        <div class="story-facts">
+          <div><small>INTEGRATION LAYER</small><strong>APIM · Logic Apps</strong></div>
+          <div><small>MESSAGING</small><strong>Service Bus · Event Grid</strong></div>
+          <div><small>COMPUTE</small><strong>Azure Functions</strong></div>
+          <div><small>INTERFACES</small><strong>REST · OpenAPI</strong></div>
+        </div>
+        <div class="story-note"><b>Architecture focus</b><span>API exposure → workflow orchestration → asynchronous messaging/events → target systems.</span></div>
+        <button class="story-coming-soon" type="button" disabled aria-label="Project details coming soon">Coming Soon <span>↗</span></button>
+      </div>
+    </article>
+
+    <article class="project-story reverse" id="case-flight">
+      <div class="story-number">02</div>
+      <div class="story-visual"><img src="assets/projects/flight.svg" alt="Flight booking system architecture illustration" loading="lazy"><div class="story-glow"></div></div>
+      <div class="story-copy">
+        <span class="story-type">FULL STACK · PROJECT</span>
+        <h3>Flight Booking <span>System</span></h3>
+        <p class="story-lead">An end-to-end application that brought together a Java backend, REST APIs, Angular frontend and MySQL persistence layer.</p>
+        <div class="story-facts">
+          <div><small>BACKEND</small><strong>Java · Spring Boot</strong></div>
+          <div><small>FRONTEND</small><strong>Angular</strong></div>
+          <div><small>DATABASE</small><strong>MySQL</strong></div>
+          <div><small>ARCHITECTURE</small><strong>API-driven full stack</strong></div>
+        </div>
+        <div class="story-note"><b>Engineering focus</b><span>Clear separation between frontend workflows, backend services and persistent data.</span></div>
+        <button class="story-coming-soon" type="button" disabled aria-label="Project details coming soon">Coming Soon <span>↗</span></button>
+      </div>
+    </article>
+
+
+  </section>
+
+  <section class="section publication-section" id="publication">
+    <div class="publication-head">
+      <div>
+        <span class="section-label">Research Publication</span>
+        <h2>Research beyond <span>the build.</span></h2>
+        <p>My technical work also extends into research, exploring machine learning approaches to cybersecurity in automotive Ethernet systems.</p>
+      </div>
+      <div class="publication-mark" aria-hidden="true"><span>01</span><small>PUBLICATION</small></div>
+    </div>
+
+    <article class="publication-card">
+      <div class="publication-visual">
+        <img src="assets/publications/ai-research.svg" alt="Abstract AI neural network visualization for cybersecurity research" loading="lazy">
+        <div class="publication-visual-glow"></div>
+        <span class="publication-badge">AIP PUBLISHING · 2026</span>
+      </div>
+      <div class="publication-copy">
+        <div class="publication-meta"><span>APR 10, 2026</span><span>RESEARCH PAPER</span></div>
+        <h3>A Comprehensive Hybrid Deep Learning Approach for Effective Intrusion Detection in Automotive Ethernet Systems</h3>
+        <p>Published in AIP Conference Proceedings, this research focuses on leveraging hybrid deep learning techniques for intrusion detection and cybersecurity in automotive Ethernet networks.</p>
+        <div class="publication-tags"><span>Deep Learning</span><span>Intrusion Detection</span><span>Automotive Ethernet</span><span>Cybersecurity</span></div>
+        <div class="publication-doi"><small>DOI</small><strong>10.1063/5.0312142</strong></div>
+        <a class="publication-link" href="https://doi.org/10.1063/5.0312142" target="_blank" rel="noopener noreferrer">View Publication <b>↗</b></a>
+      </div>
+    </article>
+  </section>
+
+  <section class="section portfolio-method">
+    <div class="portfolio-method-copy"><span class="section-label">How I Present a Project</span><h2>From <span>problem</span> to production thinking.</h2></div>
+    <div class="method-list portfolio-method-list">
+      <div><b>01</b><span>Problem & context</span><small>Understand the business and system landscape.</small></div>
+      <div><b>02</b><span>Architecture</span><small>Map systems, boundaries and integration patterns.</small></div>
+      <div><b>03</b><span>Implementation</span><small>Translate contracts and workflows into working components.</small></div>
+      <div><b>04</b><span>Reliability</span><small>Consider errors, retries, messaging and observability.</small></div>
+      <div><b>05</b><span>Deployment</span><small>Think through environments and repeatable delivery.</small></div>
+      <div><b>06</b><span>Learn & iterate</span><small>Capture lessons and improve the next design.</small></div>
+    </div>
+  </section>
+
+  <section class="section contact-strip"><span class="section-label">Let's Connect</span><h2>Have a system worth <span>building?</span></h2><p>Let's talk about integrations, APIs, cloud architecture or the engineering problem you're trying to solve.</p><a class="btn primary" href="index.html#contact">Start a Conversation <b>↗</b></a></section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand-col">
+      <a class="brand footer-brand" href="index.html">
+        <span class="brand-mark">M</span>
+        <span><b>MADHUSUDHAN</b><small>AZURE INTEGRATION</small></span>
+      </a>
+      <p>Building reliable bridges between enterprise systems, APIs and cloud services.</p>
+      <div class="footer-socials" aria-label="Social links">
+        <button type="button" data-action="linkedin" aria-label="LinkedIn">in</button>
+        <button type="button" data-action="github" aria-label="GitHub">GH</button>
+        <button type="button" data-action="email" aria-label="Email">@</button>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="index.html#contact">Let's Connect</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Expertise</h4>
+      <a href="index.html#technology">Azure Integration</a>
+      <a href="index.html#technology">API Management</a>
+      <a href="index.html#technology">Logic Apps</a>
+      <a href="index.html#technology">Cloud & APIs</a>
+      <a href="index.html#technology">Backend Development</a>
+    </div>
+
+    <div class="footer-col footer-contact-col">
+      <h4>Contact</h4>
+      <button class="footer-action" type="button" data-action="email">Email ↗</button>
+      <button class="footer-action" type="button" data-action="linkedin">LinkedIn ↗</button>
+      <span>Greater Bengaluru Area, India</span>
+      <button class="footer-contact-btn" type="button" data-action="email">Get in Touch <b>→</b></button>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 Madhusudhan Pasupuleti. All rights reserved.</span>
+    <div>
+      <a href="index.html">Privacy</a>
+      <a href="index.html">Terms</a>
+      <a href="index.html">Sitemap</a>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

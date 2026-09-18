@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">AI cybersecurity research visualization</title>
+<desc id="desc">Abstract neural network and automotive Ethernet signal visualization in a dark purple environment.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08080c"/><stop offset=".5" stop-color="#171020"/><stop offset="1" stop-color="#08080c"/></linearGradient>
+  <radialGradient id="glow" cx="58%" cy="42%" r="55%"><stop stop-color="#9a3cff" stop-opacity=".38"/><stop offset=".5" stop-color="#6d24c7" stop-opacity=".13"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9b8ff"/><stop offset=".5" stop-color="#9135ff"/><stop offset="1" stop-color="#5d21b6"/></linearGradient>
+  <linearGradient id="node" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0e5ff"/><stop offset=".35" stop-color="#b35cff"/><stop offset="1" stop-color="#7025d0"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+  <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity=".6"/></filter>
+  <pattern id="grid" width="55" height="55" patternUnits="userSpaceOnUse"><path d="M55 0H0V55" fill="none" stroke="#b68aff" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<rect width="1200" height="900" fill="url(#grid)"/>
+<ellipse cx="700" cy="390" rx="430" ry="330" fill="#9a3cff" opacity=".13" filter="url(#blur)"/>
+<rect width="1200" height="900" fill="url(#glow)"/>
+
+<!-- flowing signal paths -->
+<g fill="none" stroke="url(#line)" stroke-linecap="round">
+  <path d="M55 670 C180 670 205 555 315 555 S455 630 540 515 S695 275 830 345 S970 500 1145 420" stroke-width="4" opacity=".55"/>
+  <path d="M30 735 C160 735 210 650 315 650 S450 710 545 600 S690 385 815 430 S990 575 1170 520" stroke-width="2" opacity=".42"/>
+  <path d="M90 255 C220 210 290 305 390 260 S555 120 665 205 S830 300 930 215 S1050 145 1160 180" stroke-width="3" opacity=".32"/>
+</g>
+
+<!-- neural network -->
+<g stroke="#b869ff" stroke-opacity=".42" stroke-width="2">
+  <path d="M220 420 L395 290 L560 390 L720 235 L890 350 L1030 270"/>
+  <path d="M220 420 L410 520 L560 390 L730 535 L890 350 L1030 490"/>
+  <path d="M395 290 L410 520"/>
+  <path d="M560 390 L720 235"/>
+  <path d="M560 390 L730 535"/>
+  <path d="M720 235 L890 350"/>
+  <path d="M730 535 L890 350"/>
+</g>
+<g filter="url(#shadow)">
+  <g fill="#0d0a14" stroke="#7142a2" stroke-width="3">
+    <circle cx="220" cy="420" r="27"/><circle cx="395" cy="290" r="31"/><circle cx="410" cy="520" r="31"/>
+    <circle cx="560" cy="390" r="39"/><circle cx="720" cy="235" r="31"/><circle cx="730" cy="535" r="31"/>
+    <circle cx="890" cy="350" r="38"/><circle cx="1030" cy="270" r="27"/><circle cx="1030" cy="490" r="27"/>
+  </g>
+  <g fill="url(#node)">
+    <circle cx="220" cy="420" r="9"/><circle cx="395" cy="290" r="10"/><circle cx="410" cy="520" r="10"/>
+    <circle cx="560" cy="390" r="15"/><circle cx="720" cy="235" r="10"/><circle cx="730" cy="535" r="10"/>
+    <circle cx="890" cy="350" r="14"/><circle cx="1030" cy="270" r="9"/><circle cx="1030" cy="490" r="9"/>
+  </g>
+</g>
+
+<!-- central AI core -->
+<g transform="translate(560 390)" filter="url(#shadow)">
+  <circle r="92" fill="#0b0910" stroke="#9d52e8" stroke-opacity=".35" stroke-width="2"/>
+  <circle r="70" fill="none" stroke="#b967ff" stroke-opacity=".35" stroke-width="1" stroke-dasharray="4 9"/>
+  <circle r="49" fill="#6e29bd" opacity=".2" filter="url(#soft)"/>
+  <path d="M-28-12 C-20-38 18-42 31-17 C43 6 24 32 0 33 C-24 34-39 14-28-12Z" fill="none" stroke="url(#line)" stroke-width="5"/>
+  <path d="M-18 8 C-5-7 8-6 19-19 M-8-31 L-8 23 M14-31 L14 15" fill="none" stroke="#efe5ff" stroke-opacity=".85" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- automotive Ethernet / packet motif -->
+<g transform="translate(105 105)">
+  <rect width="275" height="86" rx="18" fill="#0b0a10" fill-opacity=".78" stroke="#6f4b88" stroke-opacity=".55"/>
+  <text x="24" y="32" fill="#a995b5" font-family="monospace" font-size="13" letter-spacing="3">AI RESEARCH</text>
+  <text x="24" y="61" fill="#f1e9f8" font-family="Arial, sans-serif" font-weight="700" font-size="20">Neural signal analysis</text>
+</g>
+<g transform="translate(820 670)">
+  <rect width="275" height="86" rx="18" fill="#0b0a10" fill-opacity=".78" stroke="#6f4b88" stroke-opacity=".55"/>
+  <text x="24" y="32" fill="#a995b5" font-family="monospace" font-size="13" letter-spacing="3">AUTOMOTIVE</text>
+  <text x="24" y="61" fill="#f1e9f8" font-family="Arial, sans-serif" font-weight="700" font-size="20">Ethernet telemetry</text>
+</g>
+
+<!-- packet dots -->
+<g fill="#d9b7ff">
+  <circle cx="95" cy="305" r="4"/><circle cx="1110" cy="330" r="4"/><circle cx="180" cy="800" r="3"/><circle cx="1115" cy="800" r="3"/>
+</g>
+</svg>
